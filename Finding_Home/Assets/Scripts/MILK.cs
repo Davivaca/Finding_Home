@@ -29,7 +29,7 @@ public class MILK : MonoBehaviour
             circle.enabled = false;
             collected.SetActive(true);
 
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject, 0.2f);
         }
     }
 }

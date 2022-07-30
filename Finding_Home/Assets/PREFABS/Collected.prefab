@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5077569265460392000}
   - component: {fileID: 2430351728950133229}
   m_Layer: 0
-  m_Name: DESTRUCTION_OBJECT_0
+  m_Name: Collected
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
