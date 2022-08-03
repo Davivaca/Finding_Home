@@ -74,6 +74,11 @@ public class Player : MonoBehaviour
             isJumping = false;
             anim.SetBool("jump",false);
         }
+        if(collision.gameObject.tag == "Spike")//die by spike method
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
     }
         void OnCollisionExit2D(Collision2D collision)
     {
